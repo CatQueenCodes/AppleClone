@@ -219,15 +219,108 @@ table {
   font-weight: 100;
 }
 
+body {
+  font-family: "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial",
+    sans-serif;
+  color: #333;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
 .nav-bar-icon {
   width: 40px;
   height: 40px;
 }
-html {
-  background-color: chocolate;
-}
 
 header {
   background-color: #333;
-  font: white;
+  height: 44px;
+}
+
+.header-container {
+  display: inline-block;
+  width: 70%;
+  margin: 0 15%;
+  text-align: center;
+}
+
+.header-icon {
+  margin: 0 3.1%;
+  width: auto;
+}
+
+.hero-content {
+  height: 600px;
+  font-size: 18px;
+  background: url(./images/hero_iphone_13pro.jpg);
+  background-position: center;
+  margin: 15px 0;
+  padding-top: 30px;
+}
+
+#iphone-model {
+  font-weight: 600;
+  font-size: 3em;
+  margin-bottom: 15px;
+}
+
+#slogan {
+  font-weight: 400;
+  font-size: 1.5em;
+  padding-bottom: 20px;
+}
+
+.hero-links {
+  display: inline-block;
+  font-size: 1.25em;
+  font-weight: 300;
+  height: 45px;
+  margin: 0 5px;
+}
+
+a:link {
+  text-decoration: none;
+  color: #08c;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #08c;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#sub-hero {
+  width: 100%;
+  display: inline-block;
+}
+
+.sub-hero-img-container {
+  height: 200px;
+}
+
+.sub-hero-img-watch,
+.sub-hero-img-ipad,
+.sub-hero-img-accessories,
+.sub-hero-img-macbook {
+  display: inline-block;
+  width: 25%;
+}
+
+.sub-hero-img-watch {
+  background: url(/images/watch_large.jpg);
+  background-position: center;
+}
+.sub-hero-img-accessories {
+  padding: 0 2px;
+}
+
+.sub-hero-img-ipad {
+  padding-left: 2px;
+}
+
+.sub-hero-img-accessories {
+  padding-right: 2px;
 }
