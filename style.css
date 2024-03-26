@@ -187,38 +187,6 @@ table {
   font-weight: 100;
 }
 
-/*                  Font                  */
-@font-face {
-  font-family: "Myriad Set Pro";
-  src: url("fonts/myriad-set-pro_bold.ttf") format("truetype");
-  font-weight: 700;
-}
-@font-face {
-  font-family: "Myriad Set Pro";
-  src: url("fonts/myriad-set-pro_semibold.ttf") format("truetype");
-  font-weight: 600;
-}
-@font-face {
-  font-family: "Myriad Set Pro";
-  src: url("fonts/myriad-set-pro_medium.ttf") format("truetype");
-  font-weight: 500;
-}
-@font-face {
-  font-family: "Myriad Set Pro";
-  src: url("fonts/myriad-set-pro_text.ttf") format("truetype");
-  font-weight: 400;
-}
-@font-face {
-  font-family: "Myriad Set Pro";
-  src: url("fonts/myriad-set-pro_thin.ttf") format("truetype");
-  font-weight: 300;
-}
-@font-face {
-  font-family: "Myriad Set Pro";
-  src: url("fonts/myriad-set-pro_ultralight.ttf") format("truetype");
-  font-weight: 100;
-}
-
 body {
   font-family: "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial",
     sans-serif;
@@ -341,19 +309,34 @@ a:hover {
 }
 
 #recall-program {
+  display: inline-block;
+  width: 100%;
   font-size: 1.2em;
   font-weight: 300;
+  margin: 20px 0;
 }
 
 /* Footer */
+
 footer {
   background-color: #f2f2f2;
   text-align: left;
+  width: 100%;
 }
 
 .footer-list-link {
+  display: inline-block;
   text-align: left;
+  width: 100%;
+  padding: 0 16%;
 }
+
+.footer-col {
+  display: inline-block;
+  width: 20%;
+  vertical-align: top;
+}
+
 .list-title {
   font-weight: 600;
   font-size: 0.8em;
@@ -370,11 +353,9 @@ footer {
 }
 
 .site-info-container {
-  height: 95px;
-  width: 75%;
+  width: 100%;
   color: #999;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 20px 0 20px 0;
   font-size: 0.8em;
 }
 
@@ -388,8 +369,17 @@ footer {
   margin-bottom: 6px;
 }
 
-#american-flag {
+#USA {
   float: right;
+}
+
+#USA > a {
+  color: #666;
+}
+
+#american-flag {
+  vertical-align: middle;
+  padding-right: 2px;
 }
 .footer-legal-container {
   display: inline-block;
@@ -403,6 +393,7 @@ footer {
   margin-right: 10px;
   border-right: solid #d6d6d6 1px;
   display: inline-block;
+  color: #666;
 }
 
 #footer-copyright {
