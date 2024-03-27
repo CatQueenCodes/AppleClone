@@ -216,7 +216,6 @@ header {
 
 .header-icon {
   margin: 0 3.1%;
-  width: auto;
 }
 
 header img:hover {
@@ -288,28 +287,31 @@ a:hover {
   display: inline-block;
   position: relative;
   height: 200px;
-  width: 25%;
+  width: 24.8%;
 }
 
 .sub-hero-img-watch {
   background: url(./images/watch_large.jpg);
   background-position: center;
+  margin-right: 0.1%;
 }
 
 .sub-hero-img-ipad {
   background: url(./images/ipad_pro_large.jpg);
   background-position: center;
+  margin: 0 0.1%;
 }
 
 .sub-hero-img-accessories {
   background: url(./images/accessories_large.jpg);
-  padding-right: 2px;
   background-position: center;
+  margin: 0 0.1%;
 }
 
 .sub-hero-img-macbook {
   background: url(./images/macbook_large.jpg);
   background-position: center;
+  margin-left: 0.1%;
 }
 
 #recall-program {
